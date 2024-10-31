@@ -1,0 +1,495 @@
+
+.img{
+    position: absolute;
+    background: url(/imeg/Image.png);
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.rotate-180{
+    transform: rotate(180deg);
+}
+
+.col_810{
+    height: 810px;
+}
+
+
+.div_bitton{    
+    position: relative;
+    top: 70px;
+    width: 75%;
+    height: 80px;
+    float: right;
+}
+
+/* кнопки */
+.button{
+    background: #fff;
+}
+
+.button_2f2dba{
+    background: #2f2dba;
+}
+
+.border_blue{
+    border-width: 2px;
+    border-color: blue;
+    border-style: double;
+    border-radius: 10px;
+
+}
+
+.space-content{
+    display: flex;  
+    flex-direction: row;  
+    justify-content: center;
+}
+
+.space_between{
+    display: flex;  
+    flex-direction: row;  
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.items_flex_end{
+    display: flex;  
+    flex-direction: row;  
+    align-self: flex-end;
+}
+
+.space_content_menu{
+    display: flex;  
+    flex-direction: row;  
+    justify-content: center;
+    align-items: center;
+}
+
+
+.space_dy_center{
+    display: flex;  
+    flex-direction: row;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block--equidistant{
+    display: flex;  
+    flex-direction: row;  
+    justify-content: space-around;
+    align-items: center;
+}
+
+.direction_column{
+   flex-direction: column;
+}
+
+
+.font-weight{
+    font-weight: bold;
+}
+
+.button_radius{
+    border-radius: 10px;
+}
+
+.border_none{
+    border: none;
+}
+
+.top{
+    position: relative;
+    top: 235px;
+}
+
+/* отступ внешний */
+.margin_arrow{
+    margin: 0px 25px;
+}
+.margin_0px_100px{
+    margin: 0px 100px;
+}
+.marginLine{
+    margin: 0px 50px;
+}
+.margin_0px_110px{
+    margin: 0px 110px;
+}
+
+.margin{
+    margin: 10px 0px;
+}
+
+.margin_white{
+    margin: 35px 0px;
+}
+.marginLittle{
+    margin: 80px 0px;
+}
+.padding{
+    padding:5px 60px;
+}
+
+.padding_100px{
+    padding: 0px 400px;
+}
+
+.padding_button_0px_60px{
+    padding: 0px 60px;
+}
+
+.padding_iw{
+    padding: 40px 40px;
+}
+
+.padding_button_15px_60px{
+    padding: 15px 60px;
+}
+
+/* Размер текста */
+
+
+.font_size_12{
+    font-size: 12px;
+}
+
+.font_size{
+    font-size: 25px;
+}
+
+.menu_mini_font_size{
+    font-size: 50px;
+}
+
+.fontLittleDig{
+    font-size: 80px;
+}
+
+.h1_font_size{
+    font-size: 100px;
+}
+
+.ogr_size{
+    font-size: 125px;
+}
+
+
+
+/* выравнивание */
+
+
+.list_margin{
+    position: relative;
+    float: left;
+    top: 200px;
+    margin: 1px 100px;
+}
+
+.text_align{
+    text-align: justify;
+}
+.text_align_right{
+    text-align: right;
+}
+
+.center_align{
+    text-align: center;
+}
+
+.center_float{
+    float: center;
+}
+
+/* цвет текста */
+.text_color_white{
+    color: #fff;
+}
+
+
+
+input{ 
+    outline: none; 
+}
+
+.text_color_blue{
+    color: blue;
+}
+
+.border_bottom{
+    border-bottom: 9px solid rgba(104, 12, 190, 0.7);
+}
+
+
+.border_bottom_medium{
+    border-color:#0a06f5;
+    border-width: medium;
+}
+
+.dIV_text_home{
+    position: relative;
+    width: 50%;
+    height: 150px;
+    float: right;
+    top: 150px;
+    right: 450px;
+    padding: 0px 120px;  
+}
+.button_text{
+    position: relative;
+    width: 75%;
+    height: 300px;
+    top: 400px;
+    float: right;
+}
+
+.blue_menu{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    top: 280px;
+    background: blue;
+}
+
+.blue_menu_mini{
+    width: 30%;
+    height: 250px;
+    margin: 0px 35px;
+}
+
+
+
+.line{
+    border-width: 2px;
+    border-color: #fff;
+    border-style: solid;
+    width: 100%;
+
+}
+
+.arrow_oen{
+    position: absolute;
+    width: 50px;
+    left: 750px;
+    
+}
+
+.arrow_two{
+    position: absolute;
+    width: 50px;
+    left: 1340px;
+}
+
+.cont_white{
+    position: relative;
+    width: 100%;
+    top: 250px;
+    height: 850px;
+}
+
+.cont_with_blueRectangle{
+    position: relative;
+    width: 100%;
+    top: 250px;
+    height: 850px;
+}
+
+.blueRectangle{
+    width: 80%;
+    top: 20px;
+    height: 650px;   
+}
+
+.blueRectangleLittle{
+    position: relative;
+    width: 22%;
+    height: 520px;
+}
+
+.blueRectangleBig{
+    position: relative;
+    width: 60%;
+    height: 520px;
+
+    
+}
+.verticalLine{
+    position: relative;
+    width: 0.1%;
+    height: 520px;
+    background: #fff;
+}
+
+.Zigzag{
+    position: relative;
+    background: url(imeg/Zigzag.png);
+    width: 75px;
+    height: 50px;
+}
+
+.girl{
+  background: url(/imeg/Place\ Your\ Image\ Here\ \(Double\ Click\ To\ Edit\).png);  
+}
+
+.list{
+    position: relative;
+    top: 250px;
+    width: 100%;
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.list_right{
+    position: relative;
+    width: 50%;
+    height: 850px;
+    float: right;
+}
+
+
+.crutch{
+    top: 500px;
+}
+
+.list_numbering{
+    position: relative;
+    top: 50px;
+    width: 30%;
+    height: 150px;
+    float: right
+}
+
+.list_text{
+    position: relative;
+    top: 500px;
+    width: 50%;
+    height: 160px;
+    float: right
+}
+
+.information_window{
+    position: relative;
+    width: 25%;
+    height: 500px;
+}
+.arrow{
+    position: relative;
+    width: 4%;
+    height: 60px;
+}
+
+.line_iw{
+    width: 100%;
+    height: 4px;
+}
+
+.line_Y{
+    position: relative;
+    width: 1%;
+    height: 510px;
+}
+
+.blueWindow{
+    position: relative;
+    top: 250px;
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.blueWindow_EMIL{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.email_drive{
+    width: 88%;
+    height: 25px;
+}
+.listGirl{
+    position: relative;
+    top: 250px;
+    width: 100%;
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+.list__minimale__blue{
+
+    width: 90%;
+    height: 250px;
+}
+
+.list__minimale__blue__text{
+    width: 30%;
+    height: 150px;
+}
+
+.list__minimale__blue__button{
+    width: 30%;
+    height: 150px;
+}
+
+.list__photo__girl{
+    width: 100%;
+    height: 585px;
+    background:  url(imeg/girl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.FAQ{
+    position: relative;
+    top: 310px;
+    width: 100%;
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+
+
+.FAQ__enumeration{
+    width: 50%;
+    height: 550px;
+}
+
+.FAQ__picture__girl{
+    width: 30%;
+    height: 550px;
+}
+.FAQ__text__end{
+    width: 79%;
+    height: auto;
+}
+.FAQ__photo__girl{
+    width: 100%;
+    height: 200px;
+    background:  url(imeg/Image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.FAQ--border--blue{
+    border: 2px solid #0a06f5;
+}
+
+.FAQ--plus{
+    background: url(imeg/Cross.png);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 10%;
+}
+
+.FAQ--minus{
+    background: url(imeg/Line.png);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 10%;
+}
